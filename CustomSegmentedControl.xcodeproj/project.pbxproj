@@ -14,6 +14,7 @@
 		4B3A65DF1CF2E8A600BF7A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3A65DD1CF2E8A600BF7A26 /* LaunchScreen.storyboard */; };
 		4B3A65EA1CF2E8A600BF7A26 /* CustomSegmentedControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A65E91CF2E8A600BF7A26 /* CustomSegmentedControlTests.swift */; };
 		4B3A65F51CF2E8A600BF7A26 /* CustomSegmentedControlUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A65F41CF2E8A600BF7A26 /* CustomSegmentedControlUITests.swift */; };
+		4B3A66031CF2EBFD00BF7A26 /* BasicSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3A66021CF2EBFD00BF7A26 /* BasicSegmentedControl.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B3A65F01CF2E8A600BF7A26 /* CustomSegmentedControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomSegmentedControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3A65F41CF2E8A600BF7A26 /* CustomSegmentedControlUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSegmentedControlUITests.swift; sourceTree = "<group>"; };
 		4B3A65F61CF2E8A600BF7A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3A66021CF2EBFD00BF7A26 /* BasicSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicSegmentedControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				4B3A65D41CF2E8A600BF7A26 /* AppDelegate.swift */,
 				4B3A65D61CF2E8A600BF7A26 /* ViewController.swift */,
+				4B3A66021CF2EBFD00BF7A26 /* BasicSegmentedControl.swift */,
 				4B3A65D81CF2E8A600BF7A26 /* Main.storyboard */,
 				4B3A65DB1CF2E8A600BF7A26 /* Assets.xcassets */,
 				4B3A65DD1CF2E8A600BF7A26 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3A65D71CF2E8A600BF7A26 /* ViewController.swift in Sources */,
+				4B3A66031CF2EBFD00BF7A26 /* BasicSegmentedControl.swift in Sources */,
 				4B3A65D51CF2E8A600BF7A26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
