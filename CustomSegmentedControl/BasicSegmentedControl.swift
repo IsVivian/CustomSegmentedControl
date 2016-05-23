@@ -73,7 +73,6 @@ class BasicSegmentedControl: UIView {
     }
     //标题数组
     var titles: [String]!
-
     //上一个btn
     var lastBtn: UIButton!
     //btn的宽度

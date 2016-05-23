@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         view1 = UIView(frame: self.view.bounds)
         view1.backgroundColor = UIColor.greenColor()
        
-        view2 = UIView(frame: self.view.bounds)
+        view2 = UIView(frame: CGRectMake(0, self.view.bounds.size.width, self.view.bounds.size.width, self.view.bounds.size.height))
         view2.backgroundColor = UIColor.redColor()
         self.view.addSubview(view2)
         self.view.addSubview(view1)
@@ -34,10 +34,12 @@ class ViewController: UIViewController {
         
         segmentedControl.pageNumberBlock = {(num: Int) in
         
+            //根据下标改变视图
             self.changeView(num)
             
         }
         
+        //设置默认选中第一个视图
         segmentedControl.firstIndex = 0
         
         self.navigationItem.titleView = segmentedControl
@@ -46,6 +48,7 @@ class ViewController: UIViewController {
     
     func changeView(num: Int) {
     
+        //判断点击btn的下标
         if num == 0 {
             
             //让所有的view恢复原状
@@ -58,6 +61,7 @@ class ViewController: UIViewController {
             
         }else if num == 1 {
         
+            //所有的view移动一个屏幕的宽度
             UIView.animateWithDuration(0.2, animations: {
                 
                 self.view1.transform = CGAffineTransformMakeTranslation(-self.view.bounds.size.width, 0)
