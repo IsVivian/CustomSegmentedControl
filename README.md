@@ -1,5 +1,6 @@
 # CustomSegmentedControl
 一款自定义的swift版本的segmentedControl
+
 //调用方法
 
 //创建分段控制器
