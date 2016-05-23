@@ -4,6 +4,7 @@
 //调用方法
 
 //创建分段控制器
+
         let segmentedControl = BasicSegmentedControl(frame: CGRectMake(0, 20, self.view.frame.size.width, 44), titles: ["View1", "View2"])
         
         segmentedControl.pageNumberBlock = {(num: Int) in
